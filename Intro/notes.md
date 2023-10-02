@@ -13,4 +13,5 @@ There are a few tasks i want to discuss with you
 A few more advices
 + Time is important
 + Be discplined in learning a programming language
++ Notes looking clean here
 
