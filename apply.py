@@ -13,6 +13,6 @@ df2 = pd.DataFrame({
 
 df2.set_index('Student_ID', inplace=True)
 
-df1['Score'] = df1['Student_ID'].apply(lambda x: df2.at[x, 'Score'])
+df1['Score'] = df1['Student_ID'].apply(lambda x: df2.loc[x, 'Score'])
 
-print(df1)
+print(df1.T)

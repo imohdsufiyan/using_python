@@ -31,3 +31,5 @@ df_x['Department_3'] = df_x['Employee_ID'].apply(lambda x: df_y_string.loc[x])
 print(df_x)
 ## joining data horizontally
 #pd.concat([df_x,df_y], axis = 'index')
+
+print(df_y_string.loc[102])
